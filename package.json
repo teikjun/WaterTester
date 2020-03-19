@@ -1,0 +1,37 @@
+{
+  "name": "watertester",
+  "version": "1.0.0",
+  "description": "user testing for crowdsourced ideas",
+  "engines": {
+    "node": "10.15.0",
+    "npm": "6.4.1"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teikjun/WaterTester.git"
+  },
+  "author": "teikjun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teikjun/WaterTester/issues"
+  },
+  "homepage": "https://github.com/teikjun/WaterTester#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "http": "0.0.0",
+    "mongoose": "^5.6.8",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^2.0.0",
+    "passport-http": "^0.3.0",
+    "session": "^0.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

@@ -1,0 +1,174 @@
+body {
+  background-color: #fcfcfd;
+  font-size: 14px;
+  font-family: Avenir, Helvetica, sans-serif;
+  letter-spacing: -0.3px;
+  font-weight: 400;
+  margin: 0;
+}
+
+#signin-description {
+  font-family: Avenir, Helvetica, sans-serif;
+  color: #394b59;
+  margin: auto;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#signin-1 { 
+  font-size: 40px;
+  font-weight: 500;
+}
+
+#signin-2 {
+  font-size: 20px;
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+  color: #8A9BA8;
+}
+
+.sign-in-button {
+  font-family: Avenir, Helvetica, sans-serif;
+  background-color: #03bff4;
+  height: 40px;
+  width: max-content;
+  border: 1px solid #03bff4;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 0px;
+  margin-bottom: 50px;
+  box-shadow: 0 4px 0 0 #0085aa;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.become-whale-text {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.sign-in-button:hover {
+  background-color: #00b1e2;
+  color: #ffffff;
+}
+.become-whale-text:hover {
+  color: #ffffff;
+}
+
+#name-generator {
+  display: flex;
+  justify-content: center;
+  /*vertical-align: middle; 
+    border: 3px solid green;*/
+}
+
+#greeting {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 0px;
+  justify-content: flex-start;
+  color: #394b59;
+  font-size: 40px;
+}
+
+#generate-random {
+  font-family: Avenir, Helvetica, sans-serif;
+  color: #03bff4;
+  height: 30px;
+  width: max-content;
+  padding: 0 20px;
+  border: 3px solid #03bff4;
+  border-radius: 20px;
+  background-color: transparent;
+  margin-right: 0px;
+}
+
+#basic-profile {
+  font-size: 60px;
+  margin: auto;
+  width: max-content;
+  margin-top: 200px;
+}
+
+.generator-container {
+  width: max-content;
+  font-family: Avenir, Helvetica, sans-serif;
+  margin: auto;
+  position: absolute;
+  top: 35%;
+  width: max-content;
+  text-align: center;
+  /*background-color: #EBF1F5;
+    border-radius: 5px;*/
+  padding: 20px;
+}
+
+#press-key-title {
+  font-size: 18px;
+  color: #8a9ba8;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+#choose-name {
+  width: max-content;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+#name-container {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  justify-content: center;
+  margin: 20px;
+  margin-right: 0px;
+  height: max-content;
+}
+
+#name-adj {
+  padding-right: 10px;
+}
+
+#name-color {
+  padding-left: 10px;
+}
+
+#whale-thumbnail {
+  width: 40px;
+  height: 40px;
+  margin-top: 7px;
+  margin-right: 10px;
+  background-color: #f3ace2;
+  border-radius: 100%;
+  background-image: url("images/whale.png");
+  background-size: 40px;
+}
+
+#next-button {
+  font-family: Avenir, Helvetica, sans-serif;
+  color: white;
+  width: max-content;
+  border: 1px solid #03bff4;
+  border-radius: 5px;
+  background-color: #03bff4;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 16px;
+  padding: 10px 40px;
+  height: max-content;
+  cursor: pointer;
+}
+
+#next-button:hover {
+  background-color: #03bff4;
+  color: #ffffff;
+}

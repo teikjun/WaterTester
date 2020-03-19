@@ -1,0 +1,95 @@
+#app {
+  width: max-content;
+  margin: 50px auto;
+  padding-top: 30px;
+  display: flex;
+  align-content: flex-start;
+}
+
+#feed {
+  margin-left: 20px;
+  margin-top: 0px;
+}
+
+a {
+  color: #03bff4;
+  width: max-content;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+#logout {
+  display: flex;
+  align-content: center;
+}
+
+#user-summary {
+  width: 220px;
+  background-color: #ffffff;
+  border: 1px solid #ced9e0;
+  border-radius: 3px;
+  height: max-content;
+}
+
+#user-activity-thumb {
+  width: 50px;
+  height: 50px;
+  background-size: 50px;
+  position: relative;
+  margin: -35px 85px;
+}
+
+.d-card-expanded {
+  margin-left: 0;
+}
+
+#user-color-band {
+  height: 50px;
+  background-color: #fbe6f6;
+}
+
+#user-name-container {
+  font-family: Avenir, Helvetica, sans-serif;
+  color: #394b59;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#user-alias {
+  font-weight: 600;
+}
+
+#user-google-name {
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+#user-data-container {
+  font-family: Avenir, Helvetica, sans-serif;
+  color: #738694;
+  background-color: #f5f8fa;
+  border-radius: 3px;
+  margin: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.user-data-line {
+  margin: 5px 0px;
+  display: flex;
+  flex-flow: row;
+}
+
+.user-trophy-icon {
+  background-image: url("images/icons8-prize-500.png");
+  width: 20px;
+  height: 20px;
+  background-size: 20px;
+}
+
+.user-data {
+  margin-left: 10px;
+}

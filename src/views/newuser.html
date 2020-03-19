@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="static/css/signin-styles.css" />
+  <link rel="stylesheet" href="static/css/styles.css" />
+  <link rel="stylesheet" href="static/css/tutorial-styles.css" />
+</head>
+
+<body>
+  <div id="composer">
+    <div id="comp-container">
+      <form id="comp-form">
+        <textarea id="comp-title" placeholder="What's your idea?"></textarea><br />
+        <textarea id="comp-body"
+          placeholder="Enter details about your idea. The more detailed you are, the better other whales will be able to help you."></textarea><br />
+        <div id="comp-cat-title">SELECT CATEGORIES</div>
+        <div id="comp-cat-container">
+          <div class="comp-categories">Web</div>
+          <div class="comp-categories">Android</div>
+          <div class="comp-categories">iOS</div>
+          <div class="comp-categories">Games</div>
+          <div class="comp-categories">Extensions</div>
+          <div class="comp-categories">Community</div>
+          <div class="comp-categories">Team</div>
+          <div class="comp-categories">Random</div>
+        </div>
+        <div id="post-button-container">
+          <input class="comp-button" id="cancel-button" type="button" value="Cancel" />
+          <div class="comp-button" id="post-button">
+            <div class="post-button-text">Post</div>
+          </div>
+        </div>
+      </form>
+      <div id="close">
+        <div id="close-icon"></div>
+      </div>
+    </div>
+    <div id="overlay"></div>
+  </div>
+
+  <div id="update-composer" class="composer">
+    <div id="update-comp-container" class="comp-container">
+      <form id="update-comp-form" class="comp-form">
+        <div class="select-update-section">
+          <div class="comp-title">Your idea is:</div>
+          <div id="final-yes" class="final-update-button">YES</div>
+          <div id="final-no" class="final-update-button">NO</div>
+        </div>
+        <textarea id="update-comp-body" class="comp-body"
+          placeholder="Enter your closing thoughts or reasoning behind your update…"
+          autofocus="autofocus"></textarea><br />
+        <div id="update-stats">
+          <div class="section-title">CURRENTLY UPDATING</div>
+          <span id="current-title" class="current-idea">Am I benign whale?</span>
+          <span id="current-body">Am I benign whale?</span>
+        </div>
+
+        <div id="update-post-button-container" class="post-button-container">
+          <input class="comp-button cancel-button" id="update-cancel-button" type="button" value="Cancel" />
+          <div class="comp-button post-button" id="update-post-button">
+            <div class="post-button-text">Post</div>
+          </div>
+        </div>
+      </form>
+      <div id="update-close" class="close">
+        <div class="close-icon"></div>
+      </div>
+    </div>
+    <div id="update-overlay"></div>
+  </div>
+
+  <nav>
+    <div id="nav-wrapper"></div>
+  </nav>
+
+  <div id="app">
+    <div id="feed-container">
+      <div id="tutorial-container"></div>
+      <div id="feed"></div>
+    </div>
+  </div>
+
+  <div id="bg-hills"></div>
+</body>
+<script src="static/js/api.js"></script>
+<script src="static/js/event-handlers.js"></script>
+<script src="static/js/navbar.js"></script>
+<script src="static/js/dom-objects.js"></script>
+<script src="static/js/feed.js"></script>
+<script src="static/js/whale-name.js"></script>
+<script src="static/js/index.js"></script>
+<script src="static/js/tutorial.js"></script>
+
+</html>

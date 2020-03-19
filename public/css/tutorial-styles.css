@@ -1,0 +1,175 @@
+#tutorial-container {
+  width: 692px;
+  height: 400px;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+#step-title {
+  display: flex;
+  width: 500px;
+  position: relative;
+  padding-top: 30px;
+  left: 30px;
+  align-items: center;
+}
+
+#step-number {
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+  color: white;
+}
+
+#step-description {
+  display: inline;
+  position: relative;
+  left: 20px;
+  font-size: 30px;
+  color: #5c7080;
+}
+
+#tim {
+  display: flex;
+  height: auto;
+  font-size: 20px;
+  padding: 30px;
+  padding-left: 15px;
+}
+
+#whale-and-cloud {
+  background-image: url("images-signin/tim.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  width: 168px;
+  height: 200px;
+  top: 70px;
+  margin-right: 30px;
+}
+
+#tim-speech-bubble {
+  padding: 20px;
+  /*
+        border-style: solid; 
+        border-color:  #5C7080;
+        border-width: 1px; 
+        */
+  background-color: white;
+  border-radius: 5px;
+  width: 400px;
+  height: max-content;
+  position: relative;
+  color: #5c7080;
+}
+#any-key {
+  font-style: italic;
+  padding-top: 10px;
+  font-size: 16px;
+  color: #a7b6c2;
+  /*position: absolute; 
+        bottom: 0;
+        padding-bottom: 5px; */
+}
+
+/*
+  #tutorial-visual {
+    border-style: solid;
+    border-color: #5C7080; 
+    width: 700px; 
+    height: 500px; 
+    position: relative; 
+    left: 650px; 
+    top: -100px; 
+  }
+  */
+
+#skip-tutorial {
+  position: absolute;
+  top: 90px;
+  right: 160px;
+  font-size: 25px;
+  color: white;
+}
+
+#skip-tutorial:hover {
+  color: #5c7080;
+}
+
+#arrow {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  z-index: 2;
+  position: fixed;
+}
+
+#arrow1 {
+  background-image: url("images-signin/arrow-curvedup.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -130px;
+  left: 555px;
+  width: 75px;
+  height: 100px;
+}
+
+#arrow2 {
+  background-image: url("images-signin/arrow-left.png");
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 400px;
+  left: -200px;
+  width: 130px;
+  height: 100px;
+  transform: scaleX(-1);
+}
+
+#arrow3 {
+  background-image: url("images-signin/arrow-left.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 350px;
+  left: -270px;
+  width: 130px;
+  height: 100px;
+  transform: rotate(90deg);
+}
+
+#arrow4 {
+  background-image: url("images-signin/arrow-curvedup.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  top: -130px;
+  left: 425px;
+  width: 75px;
+  height: 100px;
+}
+
+#arrow5 {
+  background-image: url("images-signin/arrow-curvedup.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  top: -230px;
+  left: 350px;
+  width: 75px;
+  height: 100px;
+}
+
+#category-box {
+  width: 100px;
+  height: 400px;
+  border-width: 5px;
+  border-radius: 4px;
+  z-index: 3;
+}
