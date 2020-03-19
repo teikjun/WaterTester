@@ -1,5 +1,6 @@
 # WaterTester
 WaterTester is a web platform for students to crowdsource user feedback about their project idea.
+This is an older version of the project, for demo purposes.
 
 Try out the website here!
 https://watertester.herokuapp.com
