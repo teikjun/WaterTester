@@ -8,6 +8,7 @@ https://watertester.herokuapp.com
 If you wish to run a local copy:
 1. clone the repository into a directory of your choice
 2. In the command line, type:
-
+```
     npm install
     npm start
+```
